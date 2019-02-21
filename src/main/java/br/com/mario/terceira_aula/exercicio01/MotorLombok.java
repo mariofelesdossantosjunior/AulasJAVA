@@ -1,0 +1,13 @@
+package br.com.mario.terceira_aula.exercicio01;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class MotorLombok {
+    public String marca;
+    public double kmAtual;
+    public double combustivel;
+    public int potencia;
+}
