@@ -8,22 +8,43 @@ public class ControleRemoto {
     }
 
     public void almentarVolume() {
-        televisao.setVolume(televisao.getVolume() + 1);
+        if (televisao.isLigado()) {
+            televisao.setVolume(televisao.getVolume() + 1);
+        } else {
+            System.out.println("Não é possivel almentar volume com a televisão desligada");
+        }
     }
 
     public void diminuirVolume() {
-        televisao.setVolume(televisao.getVolume() - 1);
+        if (televisao.isLigado()) {
+            televisao.setVolume(televisao.getVolume() - 1);
+        } else {
+            System.out.println("Não é possivel diminuir volume com a televisão desligada");
+        }
     }
 
     public void almentarCanal() {
-        televisao.setCanal(televisao.getCanal() + 1);
+        if (televisao.isLigado()) {
+            televisao.setCanal(televisao.getCanal() + 1);
+        } else {
+            System.out.println("Não é possivel mudar o canal com a televisão desligada");
+        }
     }
 
     public void diminuirCanal() {
-        televisao.setCanal(televisao.getCanal() - 1);
+        if (televisao.isLigado()) {
+            televisao.setCanal(televisao.getCanal() - 1);
+        } else {
+            System.out.println("Não é possivel mudar o canal com a televisão desligada");
+        }
+
     }
 
     public void canalIndicado(int canal) {
-        televisao.setCanal(canal);
+        if (televisao.isLigado()) {
+            televisao.setCanal(canal);
+        } else {
+            System.out.println("Não é possivel mudar o canal com a televisão desligada");
+        }
     }
 }
