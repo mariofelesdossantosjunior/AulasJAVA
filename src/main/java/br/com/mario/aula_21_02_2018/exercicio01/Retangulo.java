@@ -1,4 +1,4 @@
-package br.com.mario.aula_21_02_2018;
+package br.com.mario.aula_21_02_2018.exercicio01;
 
 public class Retangulo {
     private Double altura;
