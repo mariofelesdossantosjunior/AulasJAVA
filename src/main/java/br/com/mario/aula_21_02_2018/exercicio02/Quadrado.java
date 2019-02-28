@@ -8,20 +8,20 @@ public class Quadrado {
         this.lado = lado;
     }
 
-    public Double getLado() {
-        return lado;
-    }
-
-    public void setLado(Double lado) {
-        this.lado = lado;
-    }
-
     public Double getArea() {
         return lado * 2;
     }
 
     public Double getPerimetro() {
         return lado * 4;
+    }
+
+    public Double getLado() {
+        return lado;
+    }
+
+    public void setLado(Double lado) {
+        this.lado = lado;
     }
 
     @Override

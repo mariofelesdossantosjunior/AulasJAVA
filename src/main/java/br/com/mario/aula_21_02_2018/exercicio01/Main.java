@@ -7,13 +7,19 @@ public class Main {
         Retangulo retangulo02 = new Retangulo(20.0, 60.0);
         Retangulo retangulo03 = new Retangulo(30.0, 70.0);
 
+        System.out.println("Primeiro Retangulo");
         System.out.println(retangulo01.toString());
-        System.out.println(retangulo01.perimetroRetangulo());
+        System.out.println(retangulo01.getArea());
+        System.out.println(retangulo01.getPerimetro());
 
+        System.out.println("Segundo Retangulo");
         System.out.println(retangulo02.toString());
-        System.out.println(retangulo02.perimetroRetangulo());
+        System.out.println(retangulo02.getArea());
+        System.out.println(retangulo02.getPerimetro());
 
+        System.out.println("Terceiro Retangulo");
         System.out.println(retangulo03.toString());
-        System.out.println(retangulo03.perimetroRetangulo());
+        System.out.println(retangulo03.getArea());
+        System.out.println(retangulo03.getPerimetro());
     }
 }
