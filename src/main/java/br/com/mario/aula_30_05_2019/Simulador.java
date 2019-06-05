@@ -18,13 +18,10 @@ public class Simulador {
 
         gerarClientes();
         showFilas();
-        //TimeUnit.MINUTES.sleep(1);
         gerarClientes();
         showFilas();
-        //TimeUnit.MINUTES.sleep(1);
         gerarClientes();
         showFilas();
-        //TimeUnit.MINUTES.sleep(1);
 
         TimeUnit.SECONDS.sleep(30);
         atenderCliente(atendente01);
