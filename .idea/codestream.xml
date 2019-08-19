@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeStream">
+    <option name="email" value="mario_feles@live.com" />
+    <option name="webViewContext" value="{&quot;currentTeamId&quot;:&quot;5cf84178fa952b377142720b&quot;,&quot;currentStreamId&quot;:&quot;C2E5WRQGP&quot;,&quot;currentDocumentMarkerId&quot;:&quot;5cf84517fa952b3771427210&quot;,&quot;panelStack&quot;:[&quot;codemarks-for-file&quot;,&quot;main&quot;,&quot;channels&quot;,&quot;codemarks-for-file&quot;,&quot;main&quot;,&quot;channels&quot;,&quot;codemarks-for-file&quot;],&quot;hasFocus&quot;:true,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkColorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;slackAuth&quot;,&quot;params&quot;:{}}}" />
+  </component>
+</project>
